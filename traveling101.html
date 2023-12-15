@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Traveling 101</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-image: url('https://example.com/background.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        h1 {
+            font-family: 'Times New Roman', serif;
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        h5 {
+            font-family: 'Times New Roman', serif;
+            color: #008080;
+            text-align: center;
+        }
+        .dashboard-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        .dashboard-section {
+            margin-bottom: 30px;
+            position: relative;
+        }
+        .image-container,
+        .video-container {
+            text-align: center;
+        }
+        .image-container img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 5px;
+        }
+        .video-container iframe {
+            width: 100%;
+            max-width: 560px;
+            border-radius: 5px;
+        }
+        .dashboard-section ul {
+            list-style-type: circle;
+            margin-left: 20px;
+        }
+        .dashboard-section ol {
+            list-style-type: decimal;
+            margin-left: 20px;
+        }
+        /* Navbar Styles */
+        .navbar {
+            background-color: #f8f9fa;
+            padding: 15px 0;
+        }
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .navbar-nav {
+            display: flex;
+            justify-content: flex-end;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .nav-item {
+            margin-right: 15px;
+        }
+        .nav-link {
+            text-decoration: none;
+            color: #333;
+        }
+        .nav-link:hover {
+            color: #008080;
+        }
+    </style>
+</head>
+<body>
+
+<div class="dashboard-container">
+    <div class="dashboard-section">
+        <h1>Traveling 101</h1>
+    </div>
+ <nav class="navbar" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
+                <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+               
+            </ul>
+        </div>
+    </nav>
+    <div class="dashboard-section">
+        <div class='tableauPlaceholder' id='viz1702601533696' style='position: relative'>
+            <!-- Your Tableau content -->
+        </div>
+        <script type='text/javascript'>
+            // Your Tableau script
+        </script>
+    </div>
+
+    <div class="dashboard-section image-container">
+        <h2>Greece</h2>
+        <img src="https://farm5.staticflickr.com/4301/35846068841_db0a207ec1_b.jpg" alt="Featured Image">
+    </div>
+
+    <div class="dashboard-section video-container">
+        <h2>The Amalfi Coast, Italy</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xGgDskfTCvY?si=aT4EXgTXQ1jMap-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div class="dashboard-section">
+        <h2>Tableau Dashboard</h2>
+        <h5>This is my Tableau dashboard! It provides a little info about the women who have conquered Mt. Everest.</h5>
+        <a href="tableauR.html">View Tableau Dashboard</a>
+    </div>
+
+    <div class="dashboard-section" id="gallery">
+        <h2>Travel Favorites!</h2>
+        <p>My top 3 places i've traveled - followed by my 3 runner-ups!</p>
+        <ul>
+            <li>Cinque Terre, Italy</li>
+            <li>Zurich, Switzerland</li>
+            <li>Cape Town, South Africa</li>
+        </ul>
+        <ol>
+            <li>Sydney, Australia</li>
+            <li>Porto, Portugal</li>
+            <li>Tuscany, Italy</li>
+        </ol>
+    </div>
+</div>
+
+</body>
+</html>
